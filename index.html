@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SMEDS(R)</title>
+<meta http-equiv="description" content="Hand of a child" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link type="text/css" media="all" rel="stylesheet"
+	href="css/template.css" />
+<link rel="stylesheet" href="css/menu.css" type="text/css" />
+<!--start slide -->
+<script type="text/javascript" src="js/siteHeader.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="js/homepage.2.css"
+	media="screen, print, projection" />
+<!-- end -->
+
+<style type="text/css">
+</style>
+<style type="text/css">
+#marqueecontainer {
+	position: relative;
+	width: 190px; /*marquee width */
+	height: 200px; /*marquee height */
+	background-color: white;
+	overflow: hidden;
+	border: 1px solid #FF9900;
+	padding: 2px;
+	padding-left: 4px;
+}
+</style>
+<script type="text/javascript">
+
+var delayb4scroll=2000 //Specify initial delay before marquee starts to scroll on page (2000=2 seconds)
+var marqueespeed=2 //Specify marquee scroll speed (larger is faster 1-10)
+var pauseit=1 //Pause marquee onMousever (0=no. 1=yes)?
+
+////NO NEED TO EDIT BELOW THIS LINE////////////
+
+var copyspeed=marqueespeed
+var pausespeed=(pauseit==0)? copyspeed: 0
+var actualheight=''
+
+function scrollmarquee(){
+if (parseInt(cross_marquee.style.top)>(actualheight*(-1)+8))
+cross_marquee.style.top=parseInt(cross_marquee.style.top)-copyspeed+"px"
+else
+cross_marquee.style.top=parseInt(marqueeheight)+8+"px"
+}
+
+function initializemarquee(){
+cross_marquee=document.getElementById("vmarquee")
+cross_marquee.style.top=0
+marqueeheight=document.getElementById("marqueecontainer").offsetHeight
+actualheight=cross_marquee.offsetHeight
+if (window.opera || navigator.userAgent.indexOf("Netscape/7")!=-1){ //if Opera or Netscape 7x, add scrollbars to scroll and exit
+cross_marquee.style.height=marqueeheight+"px"
+cross_marquee.style.overflow="scroll"
+return
+}
+setTimeout('lefttime=setInterval("scrollmarquee()",30)', delayb4scroll)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", initializemarquee, false)
+else if (window.attachEvent)
+window.attachEvent("onload", initializemarquee)
+else if (document.getElementById)
+window.onload=initializemarquee
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37631291-1']);
+  _gaq.push(['_setDomainName', 'webvator.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+
+	<div class="bg-shadow">
+		<div class="site-block">
+
+			<div class="header-block">
+				<div class="inner-header-block">
+					<div class="logo">
+						<a title="Sri manjunatha Education and Development society"
+							href="index.html"> <img
+							alt="Sri manjunatha Education and Development society"
+							src="img/logo_img.jpg"></img>
+						</a>
+						<h2>SRI MANJUNATHA EDUCATION AND DEVELOPMENT SOCEITY(R)</h2>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="top-menu-block">
+
+				<div class="top-menu">
+
+					<div id="stylefive">
+						<ul>
+							<li><a href="index.html" class="current">HOME</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a href="projects.html">PROJECTS</a></li>
+							<li><a href="volunteering.html">VOLUNTEERING</a></li>
+							<li><a href="">PHOTO GALLERY</a></li>
+							<li><a rel="nofollow" href="contact.html">CONTACT US</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="clear">
+				<img src="img/blank.gif" alt="" width="1" height="1" />
+			</div>
+			<div class="content-block">
+				<div class="content-left-block">
+					<div class="content-left-part">
+
+						<!-- <div class="lang-block">
+							<div class="lang-icon">
+								<strong>SEARCH </strong>
+							</div>
+						</div>
+						<div class="search-block">
+							<form name="searchform" method="get" action="#">
+								<input name="id" type="hidden" value="21" />
+								<input name="lang" type="hidden" value="eng" />
+								<div class="search-form">
+									<input type="text" name="search"
+										style="width: 160px; height: 19px; background: #ffffff; border: solid #dadada 1px;" />
+								</div>
+
+								<div class="search-icon">
+									<input type="image" src="img/search-icon.gif"
+										style="width: 22px; height: 21px;" value="Submit" />
+								</div>
+							</form>
+						</div> -->
+
+						<div class="block">
+
+							<div class="block-center">
+								<a href="./"><img src="img/donate fothu.jpg" alt="" /></a>
+							</div>
+							<div class="block-bottom"></div>
+						</div>
+						<div class="top-banner-block">
+							<a href="./"><img src="img/home2.jpg" border="0"
+								mce_src="uploads/teach_banner.jpg"></a>
+						</div>
+
+
+
+
+
+
+
+					</div>
+				</div>
+				<div class="content-right-block">
+					<div class="content-right-part">
+						<div class="top-news">
+							<div class="top-news-img" id="nslide">
+
+								<div id="main-photo" class="main-photo">
+									<img src="img/slide1.jpg" /> <img src="img/slide2.jpg" />
+								</div>
+							</div>
+
+							<div class="top-news-description">
+
+								<div class="top-news-title" id="ntitle" style="font-size: 16px">Sri.Manjunatha
+									Education and Development Society(R)</div>
+								<div class="top-news-text" id="ndesc">
+
+									<div style="text-align: justify;">
+										Sri.Manjunatha Education and Development Society is
+										non-profit, non-political and development organization. It has
+										been working with multi sectoral communities without
+										distinction of caste, creed and community in Bangalore Urban
+										and Chamarajanagar Districts of Karnataka since its inception
+										in 2004. <br /> <br /> It has been working for development
+										of the most marginalized and vulnerable sections of the
+										society. The approach of the organization is to implement
+										development programmes based on the felt needs of the people
+										with an effort to mobilize people's paarticipation for
+										individuals and community development...
+										<div class="read">
+											<a href="about.html">Read More </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="news-block">
+
+							<div class="news-block-top">
+								<div class="block-top-left"></div>
+								<div class="news-block-top-center">
+									<div class="newsh">Welcome to Sri.Manjunatha Education and Development Soceity(R)</div>
+
+								</div>
+								<div class="block-top-right"></div>
+							</div>
+							<div class="news-block-center">
+
+								<div class="news-list-block">
+									<div class="news-list">
+										<div class="news-poster">
+											<img src="img/disaster1.jpg" width="155" height="105" />
+										</div>
+										<div class="news-description">
+
+											<div class="news-title">VISION</div>
+											<div>
+												<div class="news-desc">We envision a world where the
+													deprived section of soceity, rural poor women and children
+													can create an opportunity for themselves to improve their
+													quality of life and contribute to his/her fullest in the
+													developmental activities of nation for now and future.</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="news-list-line">
+										<img src="img/blank.gif" alt="" width="1" height="1" />
+									</div>
+									<div class="news-list">
+										<div class="news-poster">
+											<a href="co-curriculum.php"><img src="img/disaster2.jpg"
+												width="155" height="105" border="0" /></a>
+										</div>
+										<div class="news-description">
+
+											<div class="news-title">MISSION</div>
+
+											<div class="news-desc">To implement sustainable
+												programs for the upliftment of rural poor,with special
+												emphasis on women and children.Through dissferent
+												developmental programs and effective application of local
+												resources,we intent to cater to thte needs of the deprived
+												sections of soceity and contribute for their sustainable
+												livelihood and improved quality of life.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="news-block-bottom">
+							<div class="news-bottom-left"></div>
+							<div class="news-bottom-bg"></div>
+							<div class="news-bottom-right"></div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+            <div class="content-bottom-block">
+			</div>
+            -->
+	</div>
+	</div>
+	<div class="footer-block">
+		<div class="footer-bottom style1" style="text-align: center">
+			<br /> &copy;All Rights Reserved 2013. Sri.Manjunatha Education and Development Soceity(R).<br /> Website: www.smeds.com.
+			Email:info@smeds.com
+		</div>
+	</div>
+
+	<script type="text/javascript">
+$(document).ready(function() {
+	// Start our cycle
+	$('#main-photo').cycle({ 
+		fx:      'fade',
+		speed:    2000,
+		timeout:  6000,
+		autostop: 0
+	});
+	$('#interest-features').after('<div id="interest-links" class="controller">').cycle({ 
+		fx:      'fade',
+		speed:    3000,
+		timeout:  6000,
+		pause: 	1,
+		pager:  '#interest-links',
+		autostop: 0,
+		end:    function() {  
+        	$('#interest-features').cycle(0);  
+        	$('#interest-features').cycle('pause');
+		} 
+	});
+	// Pause the cycle
+	$('#pause-features').click(function() { 
+		$('#interest-features').cycle('pause');
+		return false;
+	});
+});
+function pauseFeatures () {
+	$('#interest-features').cycle('pause');
+	return false;
+}
+</script>
+</body>
+</html>
